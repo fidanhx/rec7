@@ -1,0 +1,25 @@
+.main-form form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-form{
+      width: 300px;
+      margin: 40px auto;
+  }
+
+  .main-form input, .main-form textarea, .send-btn{
+     height: 40px;
+     margin: 10px;
+  }
+
+  .main-form textarea{
+      max-width: 300px !important;
+  }
+
+  .send-btn{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 8px;
+  }
